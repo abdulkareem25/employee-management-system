@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+html,
+body{
+  color: white;
+  background-color: black;
+  box-sizing: border-box;
+}
+
+
+#tasklist::-webkit-scrollbar{
+  display: none;
+}
+
+#empdetails::-webkit-scrollbar{
+  display: none;
+}
+
+.formhead{
+  @apply font-semibold
+}
+
+.formborder{
+  @apply w-125 border-1 rounded p-2
+}
