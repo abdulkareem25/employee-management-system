@@ -2,7 +2,7 @@ import React from 'react'
 
 const TaskList = () => {
     return (
-        <div className='mt-4 p-9 bg-[#1c1c1c]'>
+        <div className='p-9 bg-[#1c1c1c]'>
             <div id='tasklist' className='flex mt-10  gap-6.5 overflow-x-auto '>
                 <div className='h-72 w-72 p-5 bg-blue-500 rounded-2xl shrink-0'>
                     <div className='flex justify-between'>
