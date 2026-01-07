@@ -1,4 +1,4 @@
-import React, { useContext, useEffect, useState } from 'react'
+import React, { use, useContext, useEffect, useState } from 'react'
 import EmployeeDashboard from './components/Dashboard/EmployeeDashboard'
 import Login from './components/Auth/Login'
 import AdminDashboard from './components/Dashboard/AdminDashboard'
@@ -8,6 +8,18 @@ const App = () => {
 
   const [user, setUser] = useState(null);
   const [loggedInUser, setLoggedInUser] = useState(null);
+
+  useEffect(() => {
+    const userData = JSON.parse(localStorage.getItem('user'));
+    if (userData) {
+      setLoggedInUser(userData);
+      setUser(userData.tasks ? 'employee' : 'admin');
+    }
+  }, []);
+
+  useEffect(() => {
+    localStorage.setItem('user', JSON.stringify(loggedInUser));
+  }, [loggedInUser]);
 
   const savedData = useContext(AuthContext);
   const admins = savedData.admins;
@@ -27,7 +39,7 @@ const App = () => {
 
   return (
     <>
-      {!user ? <Login handleLogin={handleLogin} /> : user == 'admin' ? <AdminDashboard loggedInUser={loggedInUser} /> : <EmployeeDashboard loggedInUser={loggedInUser} />}
+      {!user ? <Login handleLogin={handleLogin} /> : user == 'admin' ? <AdminDashboard loggedInUser={loggedInUser} setLoggedInUser={setLoggedInUser} setUser={setUser} /> : <EmployeeDashboard loggedInUser={loggedInUser} setLoggedInUser={setLoggedInUser} setUser={setUser} />}
     </>
   )
 }
