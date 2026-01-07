@@ -15,7 +15,7 @@ const EmployeeDashboard = ({ loggedInUser }) => {
         completed={employee.taskCount.completed}
         failed={employee.taskCount.failed}
       />
-      <TaskList />
+      <TaskList tasks={employee.tasks}/>
     </div>
   )
 }

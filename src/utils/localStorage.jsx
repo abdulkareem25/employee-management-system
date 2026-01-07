@@ -5,7 +5,7 @@ const employees = [
         "email": "employee@gmail.com",
         "password": "123",
         "taskCount": {
-            "active": 2,
+            "active": 1,
             "newTask": 1,
             "completed": 1,
             "failed": 0
@@ -16,7 +16,7 @@ const employees = [
                 "taskDescription": "Compile the monthly sales report for the team.",
                 "taskDate": "14 feb 2025",
                 "category": "Reports",
-                "active": true,
+                "active": false,
                 "newTask": true,
                 "completed": false,
                 "failed": false
@@ -49,7 +49,7 @@ const employees = [
         "email": "employee2@gmail.com",
         "password": "123",
         "taskCount": {
-            "active": 2,
+            "active": 1,
             "newTask": 1,
             "completed": 1,
             "failed": 1
@@ -60,7 +60,7 @@ const employees = [
                 "taskDescription": "Review code for the new feature release.",
                 "taskDate": "14 feb 2025",
                 "category": "Development",
-                "active": true,
+                "active": false,
                 "newTask": true,
                 "completed": false,
                 "failed": false
@@ -103,7 +103,7 @@ const employees = [
         "email": "employee3@gmail.com",
         "password": "123",
         "taskCount": {
-            "active": 2,
+            "active": 1,
             "newTask": 1,
             "completed": 1,
             "failed": 0
@@ -114,7 +114,7 @@ const employees = [
                 "taskDescription": "Create wireframes for the new dashboard.",
                 "taskDate": "17 feb 2025",
                 "category": "Design",
-                "active": true,
+                "active": false,
                 "newTask": true,
                 "completed": false,
                 "failed": false
@@ -148,7 +148,7 @@ const employees = [
         "password": "123",
         "taskCount": {
             "active": 1,
-            "newTask": 1,
+            "newTask": 0,
             "completed": 1,
             "failed": 0
         },
@@ -159,7 +159,7 @@ const employees = [
                 "taskDate": "18 feb 2025",
                 "category": "Content Writing",
                 "active": true,
-                "newTask": true,
+                "newTask": false,
                 "completed": false,
                 "failed": false
             },
