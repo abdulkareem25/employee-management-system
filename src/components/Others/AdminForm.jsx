@@ -34,6 +34,7 @@ const AdminForm = () => {
         });
 
         localStorage.setItem('employees', JSON.stringify(employees));
+        window.location.reload();
         
         setTitle('');
         setDate('');

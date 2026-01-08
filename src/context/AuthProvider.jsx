@@ -5,9 +5,9 @@ export const AuthContext = createContext()
 
 const AuthProvider = ({ children }) => {
 
-  useEffect(() => {
-    setLocalStorage();
-  }, []);
+  // useEffect(() => {
+  //   setLocalStorage();
+  // }, []);
 
   return (
     <div>
