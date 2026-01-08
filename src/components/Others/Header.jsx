@@ -11,7 +11,7 @@ const Header = ({ name, setLoggedInUser, setUser }) => {
                 Hello <br /> <span className=' text-3xl'>{name}👋</span>
             </h1>
             <button 
-            className='bg-red-500 px-4 py-2 text-xl font-semibold cursor-pointer rounded'
+            className='bg-red-500 px-4 py-2 text-xl font-semibold cursor-pointer rounded active:scale-95 transition duration-250'
             onClick={() => handleLogout()}
             >
                 Log Out

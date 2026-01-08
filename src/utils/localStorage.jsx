@@ -14,7 +14,7 @@ const employees = [
             {
                 "taskTitle": "Prepare Sales Report",
                 "taskDescription": "Compile the monthly sales report for the team.",
-                "taskDate": "14 feb 2025",
+                "taskDate": "14-02-2025",
                 "category": "Reports",
                 "active": false,
                 "newTask": true,
@@ -24,7 +24,7 @@ const employees = [
             {
                 "taskTitle": "Client Meeting",
                 "taskDescription": "Discuss Q1 targets with the client.",
-                "taskDate": "15 feb 2025",
+                "taskDate": "15-02-2025",
                 "category": "Meetings",
                 "active": true,
                 "newTask": false,
@@ -34,7 +34,7 @@ const employees = [
             {
                 "taskTitle": "Update CRM Data",
                 "taskDescription": "Ensure all client details are up-to-date.",
-                "taskDate": "13 feb 2025",
+                "taskDate": "13-02-2025",
                 "category": "Data Entry",
                 "active": false,
                 "newTask": false,
@@ -58,7 +58,7 @@ const employees = [
             {
                 "taskTitle": "Code Review",
                 "taskDescription": "Review code for the new feature release.",
-                "taskDate": "14 feb 2025",
+                "taskDate": "14-02-2025",
                 "category": "Development",
                 "active": false,
                 "newTask": true,
@@ -68,7 +68,7 @@ const employees = [
             {
                 "taskTitle": "Fix Bug #345",
                 "taskDescription": "Resolve the login issue on the platform.",
-                "taskDate": "12 feb 2025",
+                "taskDate": "12-02-2025",
                 "category": "Bug Fixing",
                 "active": false,
                 "newTask": false,
@@ -78,7 +78,7 @@ const employees = [
             {
                 "taskTitle": "Write Unit Tests",
                 "taskDescription": "Increase test coverage for API endpoints.",
-                "taskDate": "16 feb 2025",
+                "taskDate": "16-02-2025",
                 "category": "Testing",
                 "active": true,
                 "newTask": false,
@@ -88,7 +88,7 @@ const employees = [
             {
                 "taskTitle": "Team Standup",
                 "taskDescription": "Daily standup meeting with developers.",
-                "taskDate": "14 feb 2025",
+                "taskDate": "14-02-2025",
                 "category": "Meetings",
                 "active": false,
                 "newTask": false,
@@ -112,7 +112,7 @@ const employees = [
             {
                 "taskTitle": "Design UI Mockups",
                 "taskDescription": "Create wireframes for the new dashboard.",
-                "taskDate": "17 feb 2025",
+                "taskDate": "17-02-2025",
                 "category": "Design",
                 "active": false,
                 "newTask": true,
@@ -122,7 +122,7 @@ const employees = [
             {
                 "taskTitle": "Client Feedback Session",
                 "taskDescription": "Gather feedback from users on recent updates.",
-                "taskDate": "13 feb 2025",
+                "taskDate": "13-02-2025",
                 "category": "Meetings",
                 "active": false,
                 "newTask": false,
@@ -132,7 +132,7 @@ const employees = [
             {
                 "taskTitle": "Create Marketing Banner",
                 "taskDescription": "Design a new banner for the upcoming campaign.",
-                "taskDate": "15 feb 2025",
+                "taskDate": "15-02-2025",
                 "category": "Marketing",
                 "active": true,
                 "newTask": false,
@@ -156,7 +156,7 @@ const employees = [
             {
                 "taskTitle": "Write Blog Post",
                 "taskDescription": "Draft a technical blog post on AI trends.",
-                "taskDate": "18 feb 2025",
+                "taskDate": "18-02-2025",
                 "category": "Content Writing",
                 "active": true,
                 "newTask": false,
@@ -166,7 +166,7 @@ const employees = [
             {
                 "taskTitle": "SEO Optimization",
                 "taskDescription": "Improve search ranking for blog posts.",
-                "taskDate": "14 feb 2025",
+                "taskDate": "14-02-2025",
                 "category": "SEO",
                 "active": false,
                 "newTask": false,
@@ -190,7 +190,7 @@ const employees = [
             {
                 "taskTitle": "Database Backup",
                 "taskDescription": "Perform a full database backup.",
-                "taskDate": "16 feb 2025",
+                "taskDate": "16-02-2025",
                 "category": "Database Management",
                 "active": true,
                 "newTask": false,
@@ -200,7 +200,7 @@ const employees = [
             {
                 "taskTitle": "Optimize SQL Queries",
                 "taskDescription": "Improve performance of slow queries.",
-                "taskDate": "14 feb 2025",
+                "taskDate": "14-02-2025",
                 "category": "Database Management",
                 "active": false,
                 "newTask": false,
